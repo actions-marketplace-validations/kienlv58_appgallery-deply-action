@@ -197,7 +197,10 @@ async function startDeply({ clientId, clientKey, appId, fileExt, filePath, fileN
           console.log("successfully submitted 🎉🎉🎉🎉🎉🎉");
         } else {
               console.log(submitResult.data.ret.msg);
-              core.setFailed(submitResult.data.ret.msg);
+              if(!submitResult.data.ret.msg.includes('The package is being compiled, please try again in 3-5 minutes'))
+              {
+                core.setFailed(submitResult.data.ret.msg);
+              }
         }
       }
     } else {
