@@ -43,7 +43,7 @@ Client Id and the Client Key for that we need to create a new API key in the App
 
 ```
       - name: Deploy to Huawei App Gallery
-        uses: muhamedzeema/appgallery-deply-action@main
+        uses: kienlv58/appgallery-deply-action@main
         with:
           client-id: ${{secrets.HUAWEI_CLIENT_ID}}
           client-key: ${{secrets.HUAWEI_CLIENT_KEY}}
