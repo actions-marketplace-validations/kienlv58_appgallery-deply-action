@@ -52,3 +52,9 @@ Client Id and the Client Key for that we need to create a new API key in the App
           file-path: "apk/release/app-release.apk"
           file-name: "MyAppName-1.0.0"
           submit: true
+
+## Reference:
+https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agcapi-getstarted-0000001111845114
+https://developer.huawei.com/consumer/en/doc/development/AppGallery-connect-Guides/agcapi-upload_appfile-0000001158365309
+This fork to fix the issue:
+https://github.com/muhamedzeema/appgallery-deply-action/issues/8
