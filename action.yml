@@ -1,6 +1,6 @@
-name: "Deploy to Huawei App Gallery"
+name: "Deploy to Huawei App Gallery Update 2023"
 description: "Uploads and releases apps to Huawei App Gallery."
-author: "Muhamed Zeema"
+author: "Muhamed Zeema, Kienlv58"
 branding:
   icon: "upload"
   color: "blue"
